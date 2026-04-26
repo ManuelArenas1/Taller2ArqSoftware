@@ -15,8 +15,8 @@ src/
 │   │   ├── product.py          # Entidad Product
 │   │   └── chat_message.py     # Entidad ChatMessage / ChatContext
 │   └── repositories/
-│       ├── i_product_repository.py
-│       └── i_chat_repository.py
+│       ├── product_repository.py
+│       └── chat_repository.py
 ├── application/                # Casos de uso y servicios
 │   ├── product_service.py
 │   ├── chat_service.py
@@ -31,10 +31,10 @@ src/
     │   ├── models.py           # Modelos ORM
     │   └── init_data.py        # Datos iniciales
     ├── repositories/
-    │   ├── sql_product_repository.py
-    │   └── sql_chat_repository.py
+    │   ├── product_repository.py
+    │   └── chat_repository.py
     └── llm_providers/
-        └── gemini_service.py   # Integración con Google Gemini
+        └── gemini_services.py   # Integración con Google Gemini
 ```
  
 ---
@@ -53,8 +53,8 @@ src/
 **1. Clona el repositorio**
  
 ```bash
-git clone https://github.com/tu-usuario/e-commerce-chat-ai.git
-cd e-commerce-chat-ai
+git clone https://github.com/ManuelArenas1/Taller2ArqSoftware.git
+cd Taller2ArqSoftware
 ```
  
 **2. Crea el archivo `.env`**
