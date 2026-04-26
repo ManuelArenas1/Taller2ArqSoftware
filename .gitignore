@@ -1,0 +1,29 @@
+#entorno virtual
+venv/
+env/
+
+#variables de entorno
+.env
+
+#base de datos
+data/
+*.db
+
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
